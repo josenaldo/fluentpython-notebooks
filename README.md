@@ -1,5 +1,4 @@
-Fluent Python: notebooks
-========================
+# Fluent Python: notebooks
 
 This repository contains example code for the book `Fluent Python`_ by Luciano Ramalho (O'Reilly, 2014), with Jupyter notebooks added by Allen Downey.
 
@@ -7,16 +6,23 @@ You can run the notebooks by cloning this repo and running your own Jupyter serv
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/AllenDowney/fluent-python-notebooks)
 
-
-
 **BEWARE**: This is a work in progress, like the book itself.
 
-* Code here may change and disappear without warning. 
+* Code here may change and disappear without warning.
 
 * If a piece of code is not yet in the ebook, it's likely to be broken.
 
-* A major reorganization may happen when the last chapter is done. 
+* A major reorganization may happen when the last chapter is done.
 
 * No promises. No guarantees. Use at own risk.
 
 [*Fluent Python*](http://shop.oreilly.com/product/0636920032519.do)
+
+## Atenção
+
+Se algum noteook estiver quebrado, converter para a versão mais nova do
+jupyter usando o comando:
+
+```sh
+jupyter nbconvert --to=notebook [nome_do_arquivo.ipynb]
+```
